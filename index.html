@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
+	<title>Michael Kalmus</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -18,19 +18,19 @@
 	<header>
     <nav class="navbar">
       <ul class="nav-links">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">Projects</a></li>
-          <li class="nav-item"><a href="#">About</a></li>
-          <li class="nav-item"><a href="#">Sign in</a></li>
+          <li class="nav-item"><a href="#landing-page">Home</a></li>
+          <li class="nav-item"><a href="#project-page">Projects</a></li>
+          <li class="nav-item"><a href="#experience-page">Experience</a></li>
+          <li class="nav-item"><a href="#contact-page">Contact</a></li>
         </ul>
   </nav>
 	</header>
 
 	<main>
 
-		<section class="landing">
+		<section class="landing" id="landing-page">
 			<h1>Michael Kalmus</h1>
-			<h2>Data Science | Web Development | Third Thing</h2>
+			<h2>Data Science | Web Development</h2>
 		</section>
 
 		<section class="projects" id="project-page">
@@ -39,11 +39,13 @@
 				<div class="project-item">
 					<h2>Soundcloud Scraping App</h2>
 					<p class="top-border">
-						Web Scraping and Crawling, Caching, Selenium, BeautifulSoup4, Plotly, Pandas, Databases (SQLite3), Git
+            Languages: Python, SQL, git <br>
+            Skills: Web Scraping, Caching <br>
+            Libraries: Requests, Selenium, BeautifulSoup4, Plotly, Pandas
 					</p>
-					<p>Uses Selenium and BeautifulSoup to automate browser interactions, scrape
-						Soundcloud pages, and provide a command line application for the user to generate visualizations with Plotly in their
-						browser.
+					<p>
+            Scrapes data from Soundcloud's top charts, stores the data in a database,
+            and creates various visualizations for the user to gain insight.
 					</p>
 					<div class="bottom-container">
 				  <!-- <a href="https://github.com/mkalmus/soundcloud-scraper-v1">View on GitHub</a>
@@ -53,9 +55,11 @@
 
       <div class="project-item">
         <h2>Baseball Simulator</h2>
-          <p class="top-border">Probability and Statistics,
-          Markov Chain Montecarlo Simulation,
-          Statistical Analysis and Evaluation</p>
+          <p class="top-border">
+          Languages: R <br>
+          Skills: Probability and Statistics, Markov Chain Montecarlo Simulation, Statistical Analysis and Evaluation <br>
+          Libraries: tidyverse, ggplot2
+          </p>
         <p class="top-border">Uses play-by-play data for a full season of baseball games to 
           simulate game outcomes, accounting for batting order and batter skill. </p>
         <div class="bottom-container">
@@ -95,6 +99,17 @@
     </section>
 
     <section class="experience" id="experience-page">
+      <h1>Experience</h1>
+      <p>For a downlaodable copy of my resume, click here</p>
+      <div class="container">
+        <div class="wrapper">
+        </div>
+      </div>
+
+    </section>
+    </main>
+
+    <section class="contact" id="contact-page">
       <h1>Experience</h1>
       <p>For a downlaodable copy of my resume, click here</p>
       <div class="container">

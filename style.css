@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -44,9 +44,9 @@ section.landing h2{
   text-align: center;
 }
 
-.experience .container h2:not(:first-child){
+/* .projects .experience .container h2:not(:first-child){
   margin-top: 10%;
-}
+} */
 
 /* Set Flex Properties */
 section.landing, footer, .bottom-container, .project-item,
@@ -54,6 +54,7 @@ section.landing, footer, .bottom-container, .project-item,
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 section, .project-item, .wrapper{
@@ -62,6 +63,7 @@ section, .project-item, .wrapper{
 
 section{
   min-height: 80vh;
+  border: blue 3px solid;
 }
 
 /* HEADER/NAV STYLING */
@@ -98,8 +100,7 @@ nav {
 
 /* PROJECT PAGE */
 #project-page {
-  padding-top: 140px;
-  border: red 2px solid;
+  /* padding-top: 140px; */
 }
 
 .projects-container, .container{
@@ -123,7 +124,7 @@ nav {
     border: rgb(165, 72, 228) 5px solid;
     border-radius: 50px;
     width: 500px;
-    padding: 2%;
+    /* padding: 2%; */
     height: 250px;
   }
 
@@ -131,8 +132,8 @@ nav {
     margin-top: 5vh;
   } */
 
-    .project-item > * {
-      padding: 1%;
+    .project-item {
+      padding: 2%;
     }
 
     .project-item h2, .project-item p {
@@ -145,7 +146,7 @@ nav {
     }
 
 .bottom-container{
-  padding-top: 2%;
+  /* padding-top: 2%; */
   width: 100%;
   justify-content: space-evenly;
 }
@@ -155,7 +156,7 @@ nav {
   border: none;
   cursor: pointer; 
   transition: all 0.3s ease 0s;
-  padding: 6px 8px;
+  /* padding: 6px 8px; */
   border-radius: 25px;
   text-decoration: none;
   text-align: center;
@@ -174,16 +175,16 @@ nav {
   width: 100%;
   border: #F1B24A 8px solid;
   border-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgb(219, 150, 52) 100%) 1;
-  padding: 5% 10%;
+  /* padding: 5% 10%; */
   align-items: flex-start;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .wrapper h2{
   text-align: left;
   align-self: start;
-  padding-bottom: 20px;
-  margin-left: -10px;
+  /* padding-bottom: 20px; */
+  /* margin-left: -10px; */
 }
 
 .experience li{
@@ -199,8 +200,8 @@ nav {
       border: 1px solid rgb(219, 150, 52);
       box-shadow: 2px 2px 0px rgb(148, 99, 31);
       position: absolute;
-      margin-left: -10px;
-      margin-top: -5px;
+      /* margin-left: -10px;
+      margin-top: -5px; */
       border-radius: 50%;
     }
 
