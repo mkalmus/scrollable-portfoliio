@@ -1,129 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Michael Kalmus</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&family=Ubuntu+Mono:wght@400;700&display=swap"
-	 rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Oswald:wght@500&family=Titillium+Web:wght@600;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-
 <body>
-
-	<header>
     <nav class="navbar">
-      <ul class="nav-links">
-          <li class="nav-item"><a href="#landing-page">Home</a></li>
-          <li class="nav-item"><a href="#project-page">Projects</a></li>
-          <li class="nav-item"><a href="#experience-page">Experience</a></li>
-          <li class="nav-item"><a href="#contact-page">Contact</a></li>
+        <ul class="nav-links">
+            <li class="left-align"><a href="#landing-page">MAK</a></li>
+            <div class="right-align">
+                <li class="nav-item"><a href="#landing-page">Home</a></li>
+                <li class="nav-item"><a href="#project-page">Projects</a></li>
+                <li class="nav-item"><a href="#experience-page">Experience</a></li>
+                <li class="nav-item"><a href="#contact-page">Contact</a></li>
+            </div>
         </ul>
-  </nav>
-	</header>
-
-	<main>
-
-		<section class="landing" id="landing-page">
-			<h1>Michael Kalmus</h1>
-			<h2>Data Science | Web Development</h2>
-		</section>
-
-		<section class="projects" id="project-page">
-			<h1> Projects </h1>
-			<div class="projects-container">
-				<div class="project-item">
-					<h2>Soundcloud Scraping App</h2>
-					<p class="top-border">
-            Languages: Python, SQL, git <br>
-            Skills: Web Scraping, Caching <br>
-            Libraries: Requests, Selenium, BeautifulSoup4, Plotly, Pandas
-					</p>
-					<p>
-            Scrapes data from Soundcloud's top charts, stores the data in a database,
-            and creates various visualizations for the user to gain insight.
-					</p>
-					<div class="bottom-container">
-				  <!-- <a href="https://github.com/mkalmus/soundcloud-scraper-v1">View on GitHub</a>
-          <a href="#">View on Replit</a> -->
-        </div>
-      </div>
-
-      <div class="project-item">
-        <h2>Baseball Simulator</h2>
-          <p class="top-border">
-          Languages: R <br>
-          Skills: Probability and Statistics, Markov Chain Montecarlo Simulation, Statistical Analysis and Evaluation <br>
-          Libraries: tidyverse, ggplot2
-          </p>
-        <p class="top-border">Uses play-by-play data for a full season of baseball games to 
-          simulate game outcomes, accounting for batting order and batter skill. </p>
-        <div class="bottom-container">
-					<!-- <a href="https://github.com/mkalmus/Baseball-Simulator-in-R">View on GitHub</a>
-          <a href="#">View on Replit</a> -->
-        </div>
-      </div>
-      
-      <div class="project-item">
-        <h2>This Website!</h2>
-          <p class="top-border">Accessibility, Web Development, 
-            Semantic Tags, CSS Selectors, User Interface Design,
-            User Experience Design, Git, Figma
-          </p>
-        <p class="top-border">I built this site from scratch with 
-          HTML5, CSS3, and JavaScript. This was the first project I used Figma for prototyping and Replit for programming, and I loved them both!
-        </p>
-        <div class="bottom-container">
-					<!-- <a href="https://github.com/mkalmus/scrollable-portfolio">View on GitHub</a>
-          <a href="#">View on Replit</a> -->
-        </div>
-      </div>
-
-      <div class="project-item">
-        <h2>Predicting Titanic Survivorship</h2>
-        <p>Exploratory Data Analysis, Machine Learning,
-          Classification Models, Boosting, Model Selection, Model Evaluation
-        </p>
-        <p>Follows a formal Machine Learning workflow to predict which Titanic passengers would and would not have survived by fitting and boosting a Random Forest model. Includes steps like data preparation, model selection, and model evaluation. </p>
-        <div class="bottom-container">
-					<!-- <a href="#">View on GitHub</a>
-          <a href="#">View on Replit</a> -->
-        </div>
-      </div>
-
-      </div>
+    </nav>
+    <section id="landing-page">
+        <h1>Michael Kalmus</h1>
+        <h2>Data Science | Web Development</h2>
     </section>
-
-    <section class="experience" id="experience-page">
-      <h1>Experience</h1>
-      <p>For a downlaodable copy of my resume, click here</p>
-      <div class="container">
-        <div class="wrapper">
+    <section id="project-page">
+        <h1> Projects </h1>
+        <div class="projects-container">
+            <div class="project-item">
+                <h2>Soundcloud Scraping App</h2>
+                <p class="top-border">
+        Languages: Python, SQL, git <br>
+        Skills: Web Scraping, Caching <br>
+        Libraries: Requests, Selenium, BeautifulSoup4, Plotly, Pandas
+                </p>
+                <p>
+        Scrapes data from Soundcloud's top charts, stores the data in a database,
+        and creates various visualizations for the user to gain insight.
+                </p>
+            </div>
+            <div class="project-item">
+                <h2>This Website!</h2>
+                <p class="top-border">
+                    Languages: Python, SQL, git <br>
+                    Skills: Web Scraping, Caching <br>
+                    Libraries: Requests, Selenium, BeautifulSoup4, Plotly, Pandas
+                </p>
+                <p>
+                    I built this site from scratch with 
+                    HTML5, CSS3, and JavaScript. This was the first project I used Figma for prototyping and Replit for programming, and I loved them both!
+                </p>
+            </div>
+            <div class="project-item">
+                <h2>Predicting Titanic Survivorship</h2>
+                <p class="top-border">
+                    Languages: Python, SQL, git <br>
+                    Skills: Web Scraping, Caching <br>
+                    Libraries: Requests, Selenium, BeautifulSoup4, Plotly, Pandas
+                </p>
+                <p>Follows a formal Machine Learning workflow to predict which Titanic passengers would and would not have survived by fitting and boosting a Random Forest model. Includes steps like data preparation, model selection, and model evaluation. </p>
+            </div>
+            <div class="project-item">
+                <h2>Baseball Simulator</h2>
+                <p class="top-border">
+                    Languages: R <br>
+                    Skills: Probability and Statistics, Markov Chain Montecarlo Simulation, Statistical Analysis and Evaluation <br>
+                    Libraries: tidyverse, ggplot2
+                </p>
+                <p>
+                    Uses play-by-play data for a full season of baseball games to 
+                    simulate game outcomes, accounting for batting order and batter skill. 
+                </p>
+            </div>
         </div>
-      </div>
-
     </section>
-    </main>
-
-    <section class="contact" id="contact-page">
-      <h1>Experience</h1>
-      <p>For a downlaodable copy of my resume, click here</p>
-      <div class="container">
-        <div class="wrapper">
-        </div>
-      </div>
-
+    <section id="experience-page">
+        <h1>Experience</h1>
+        <h2>Work</h2>
+            <h3>Operations Research @ Intel Corp. (July 2022 - Present)</h3>
+            <h3>Graduate Student Instructor @ University of Michigan</h3>
+            <h3>Data Science @ General Motors</h3>
+            <h3>Throughput Analytics @ General Motors</h3>
+        <h2>Education</h2>
+        <h3>Information @ University of Michigan (2020 - 2022)</h3>
+        <h3>Industrial Engineering @ University of Michigan (2019 - 2020)</h3>
+        <h3>Industrial Engineering @ University of Michigan (2015 - 2019)</h3>
     </section>
-    </main>
-
-    <footer>
-      <p> Michael Kalmus, 2021 </p>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
+    <section id="contact-page">
+        <h1>Contact</h1>
+    </section>
+</body>
 </html>
