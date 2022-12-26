@@ -21,10 +21,11 @@ nav {
   overflow: hidden;
   position: fixed;
   top: 0;
-  height: 100px;
+  height: 80px;
   display: flex;
   /* justify-content: center; */
   align-items: center;
+  border-bottom: rgb(165, 72, 228) 5px solid;
 }
 
 nav ul {
@@ -52,7 +53,7 @@ nav a {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   display: inline-block;
   width: 100%;
 }
@@ -81,7 +82,7 @@ border: rgb(165, 72, 228) 5px solid;
 border-radius: 35px;
 padding: .5% 1%;
 width: 725px;
-height: 275px;
+min-height: 275px;
 margin: 0 2%;
 margin-bottom: 2%;
 }
@@ -104,4 +105,16 @@ margin-bottom: 2%;
   align-items: center;
   flex-direction: column;
   padding-top: 30vh;
+}
+
+#experience-page .content {
+  padding: 0 20%;
+}
+
+#experience-page .content li {
+  margin-left: 2em;
+}
+
+#experience-page h2 {
+  padding: 2.5% 0;
 }
