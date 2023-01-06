@@ -50,8 +50,8 @@ nav a {
   text-decoration: none;
 }
 
-nav a:active{
-  color: red;
+nav a:active, nav a:hover{
+  color: rgb(177, 113, 220);
 }
 
 .left-align {
@@ -126,6 +126,10 @@ margin-bottom: 2%;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.bottom-container a:nth-child(2){
+  padding-left: 10px;
 }
 
 .bottom-container img {
