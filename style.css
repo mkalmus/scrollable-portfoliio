@@ -98,7 +98,7 @@ border-radius: 35px;
 padding: 1.5% 1%;
 padding-bottom: 0;
 width: 725px;
-height: 325px;
+min-height: 325px;
 margin: 0 2%;
 margin-bottom: 2%;
 }
